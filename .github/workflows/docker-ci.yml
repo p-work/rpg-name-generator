@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Extract Docker image metadata
+      - name: Extract Docker image metadata.
         id: meta
         uses: docker/metadata-action@v5
         with:
